@@ -1,0 +1,38 @@
+{
+  "name": "homebrew-aau",
+  "version": "0.1.0",
+  "description": "Calculate alpha acid units",
+  "license": "MIT",
+  "repository": "gillesdemey/homebrew-aau",
+  "author": {
+    "name": "Gilles De Mey",
+    "email": "gilles.de.mey@gmail.com",
+    "url": "gilles.demey.io"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "standard | snazzy && nyc ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "coveralls": "^2.11.12",
+    "nyc": "^10.0.0",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.1"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  }
+}
